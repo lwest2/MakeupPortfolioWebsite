@@ -1,0 +1,89 @@
+
+
+.navbar-custom {
+  margin: 10px 60px 10px 60px;
+  padding: 20px 16px 20px 16px;
+  text-decoration: none;
+}
+
+.socialmedia {
+  float:right;
+}
+
+.socialmedia a {
+  text-decoration: none;
+  color: #282828!important;
+  padding: 8px 12px 8px 12px;
+  font-size: 22px;
+}
+
+.socialmedia a:hover {
+  color: #282828!important;
+}
+
+a {
+  color: inherit;
+  color: #282828!important;
+  transition: 0.15s ease-in-out;
+}
+
+a:hover {
+  color: inherit;
+  color: #b0b0b0!important;
+}
+
+.active a {
+  color: #b0b0b0!important;
+}
+
+.navbar-nav li {
+  font-family: 'Libre Franklin', sans-serif;
+  letter-spacing: 2px;
+  font-weight: 600;
+  font-size: 0.8em;
+}
+.navbar-light .navbar-toggler {
+  color: #282828;
+  border: none;
+  padding: 0px 12px 0px 12px;
+  text-decoration: none;
+}
+
+.navbar-light .navbar-toggler:hover {
+  outline: 0;
+}
+
+.navbar-brand {
+  margin-right: 0px;
+  font-family: 'Libre Franklin', sans-serif;
+  letter-spacing: 2px;
+  font-weight: 400;
+  font-size: 1.5em;
+  text-decoration: underline;
+}
+
+.navbar-brand:hover {
+  color: #282828!important;
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar {
+    margin: 0px;
+  }
+
+  .navbar-brand {
+    font-size: 1em;
+  }
+}
+
+@media only screen and (max-width: 266px) {
+  .navbar-brand {
+    font-size: 0.7em;
+  }
+
+@media only screen and (max-width: 230px) {
+  .navbar-brand {
+    display: none;
+  }
+}
