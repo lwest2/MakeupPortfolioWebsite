@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>GeorgiaLilyMua - Home</title>
+    <title>GeorgiaLilyMua - Contact</title>
 
     <!-- CSS Core -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -30,41 +30,53 @@
         </div>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">HOME<span class="sr-only">(current)</span></a>
-            </li>
             <li class="nav-item navitem-custom">
+              <a class="nav-link" href="index.html">HOME</a>
+            </li>
+            <li class="nav-item  navitem-custom">
               <a class="nav-link" href="about.html">ABOUT</a>
             </li>
             <li class="nav-item navitem-custom">
               <a class="nav-link" href="portfolio.html">PORTFOLIO</a>
             </li>
-            <li class="nav-item navitem-custom">
-              <a class="nav-link" href="contact.html">CONTACT</a>
+            <li class="nav-item active">
+              <a class="nav-link" href="contact.html">CONTACT<span class="sr-only">(current)</span></a>
             </li>
           </ul>
         </div>
       </nav>
     </div>
 
-    <div class="container-fluid homeimgholder">
-      <div class="row rowimg">
-        <div class="col-md-6 imgcol1">
-          <img class="homeimages img-fluid img-responsive" src="http://via.placeholder.com/500x500" alt="portfolio image 1"></img>
+    <div class="container">
+      <form class="contact-form" action="contactform.php" method="post">
+        <div class="row">
+          <div class="col">
+            <input type="text" name="name" placeholder="Full Name"></input>
+          </div>
         </div>
-        <div class="col-md-6 imgcol2">
-          <img class="homeimages img-fluid img-responsive" src="http://via.placeholder.com/500x500" alt="portfolio image 2"></img>
+        <div class="row">
+          <div class="col">
+            <input type="text" name="mail" placeholder="E-mail"></input>
+          </div>
         </div>
-      </div>
-    </div>
-
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col moreinfo">
-          <h1>More Info.</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa magnam fuga in iusto quisquam. Pariatur quaerat nostrum beatae odio quos aut numquam fugit, ipsum saepe, alias nobis mollitia laudantium praesentium.</p>
+        <div class="row">
+          <div class="col">
+            <input type="text" name="subject" placeholder="Subject"></input>
+          </div>
         </div>
-      </div>
+        <div class="row">
+          <div class="col">
+            <textarea name="message" placeholder="Message"></textarea>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <button type="submit" name="submit">
+          SEND MAIL
+      </button>
+          </div>
+        </div>
+      </form>
     </div>
 
     <div class="footer">
